@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Huninn&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+
+<body>
+    <nav class="flex align-center">
+        <div class="nav-left flex">
+            <div class="logo">
+                <a href="/">
+                    <img src="images/logo.svg" alt="Logo" >
+                </a>
+            </div>
+            <div class="home">
+                <a href="/">
+                    <img src="images/home.svg" alt="home image" >
+                </a>
+            </div>
+            <div class="search">
+                <a href="/">
+                    <img src="images/search.svg" alt="search" >
+                </a>
+            </div>
+        </div>
+        <div class="nav-right flex">
+            <div class="leftPart">
+                <button>Premium</button>
+                <button>Support</button>
+                <button>Download</button>
+            </div>
+            <div class="vertical"></div>
+            <div class="rightPart">
+                <button>Install App</button>
+                <button>Sign up</button>
+                <button class="log-in">Log in</button>
+            </div>
+            <img class="hamburger invert" src="images/hamburger.svg" alt="">
+
+        </div>
+    </nav>
+    <main class="container flex gap">
+        <div class="left ">
+            <div class="library flex align-center">
+                <h4>Your Library</h4>
+                <div class="create">
+                    <img class="invert" src="images/add.svg" alt="">
+                </div>
+                <img class="close-left invert" src="images/cross.svg" alt="">
+            </div>
+            <div class="album">
+                <h5>My Song</h5>
+                <div class="box songplaylist">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <div class="info">
+                <div class="info-1 flex wrap">
+                    <a>Legal</a>
+                    <a>Safty & privacy center</a>
+                    <a>Privacy policy</a>
+                    <a>Cookies</a>
+                    <a>About ads</a>
+                    <a>Accessibility</a>
+                </div>
+                <button class="p-8">Cookies</button>
+            </div>
+            <button>English</button>
+        </div>
+        <div class="right">
+            <div class="ham-left">
+                <img class="invert" src="images/hamburger.svg" alt="">
+                <h2>My Playlist</h2>
+            </div>
+            <div class="playlist flex">
+                <!-- <div data-folder="ncs" ="" class="card">
+                    <img class="playbtn" style="width: 48px; height:48px;" src="playbtn.svg" alt="image">
+                    <img class="song-image" src="	https://i.scdn.co/image/ab67616d00001e029aa819fdf84c78fc1976391d"
+                        alt="image">
+                    <span class=""><strong>KALYANI (with Shreya Ghoshal) - Remix</strong></span>
+                    <span>
+                        <p>ARJS, KDS, FIFTY4</p>
+                        <p>Shreya Ghoshal</p>
+                    </span>
+                </div> -->
+                <!-- <div data-folder="cs" class="card">
+                    <img class="playbtn" style="width: 48px; height:48px;" src="playbtn.svg" alt="image">
+                    <img class="song-image" src="	https://i.scdn.co/image/ab67616d00001e029aa819fdf84c78fc1976391d"
+                        alt="image">
+                    <span class=""><strong>KALYANI (with Shreya Ghoshal) - Remix</strong></span>
+                    <span>
+                        <p>ARJS, KDS, FIFTY4</p>
+                        <p>Shreya Ghoshal</p>
+                    </span>
+                </div> -->
+
+            </div>
+            <div class="playbar">
+                <div class="abovebar">
+                    <div class="song-info12">
+
+                    </div>
+                    <div class="songplaybtn">
+                        <img id="previous" src="images/previous.svg" alt="">
+                        <img id="play" src="images/play.svg" alt="">
+                        <img id="next" src="images/next.svg" alt="">
+                    </div>
+                    <div class="timevol">
+
+                    </div>
+                    <div class="song-time">
+
+                    </div>
+                    <div class="volume" >
+                        <img  src="images/volume.svg" alt="">
+                        <div class="range" >
+                            <input type="range" name="valume">
+                        </div>
+                    </div>
+                </div>
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

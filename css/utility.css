@@ -1,0 +1,43 @@
+.border{
+    border: 2px solid red;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+/* button{
+    background-color: black;
+} */
+
+.gap{
+    gap:10px;
+}
+
+.font-style{
+    font-family:spotify ;
+}
+
+.bg-co{
+    background-color: #281f1f;
+}
+
+.p-8{
+    padding: 8px;
+}
+
+.invert{
+    filter: invert(1);
+}
